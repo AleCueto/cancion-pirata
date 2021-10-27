@@ -1,0 +1,31 @@
+/******************** estilo de pirata con imagen  grande de fondo *******/
+
+@font-face {
+    font-family: pirata;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    background-image: url("../images/fondo2.jpg");
+    margin:0px auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-family: pirata;
+    background-size:cover;
+    height: 100vh;
+    background-position: 66%; /* defino donde está el centro de interes de mi imagen de fondo, y ahí fijo el punto para posteriores recortes*, por defecto es left y yo he puesto el 2º tercio (66%)*/
+}
+
+#poema{
+    background-color: white;
+    width: 300px;
+    background-color: #fdfbe796;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+    /*En este caso MUY PARTICULAR, me conviene fijar el ancho en píxeles, porque protege el ancho de líneas del poema, y no rompe los versos, pero porque son versos. Además 300 px caben en el ancho de cualquier móvil */
+}

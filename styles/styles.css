@@ -1,0 +1,27 @@
+@font-face {
+    font-family: pacifico;
+    src: url("../fonts/Pacifico-Regular.ttf");
+}
+
+body{
+    background-image: url("../images/fondo.jpg");
+    background-size: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+#container{ 
+    background-color: rgba(0, 0, 0, 0.534);
+    width: 40%;
+    margin:auto;
+    color: white;
+    padding: 20px;
+    margin-left: 30%;
+    text-align: center;
+    font-family: pacifico;
+    font-size: 1.1em;
+}
+
+#container h1{
+    font-size: 1.4em;
+}
